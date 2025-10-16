@@ -157,7 +157,7 @@ Cat Facts API: https://catfact.ninja/fact
 
 Railway Deployment: Your live URL after deployment
 
-GitHub Repo: https://github.com/Elice99/Backend_wizards_stage0
+GitHub Repo: https://github.com/Elice99/Stage0-Backend-wizard
 
 
 ⚙️ Contact
