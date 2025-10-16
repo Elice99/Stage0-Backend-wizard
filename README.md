@@ -1,4 +1,6 @@
-Welcome to my **Backend Wizards Stage 0** project! 🎯  
+Welcome to my **Backend Wizards Stage 0** project! 
+
+ 
 This project demonstrates how to build a **simple FastAPI endpoint** that returns My profile information along with a **dynamic cat fact** fetched from a public API.
 
 
@@ -24,7 +26,8 @@ This project helped me learn:
 - Handling dynamic environment variables (PORT for deployment)
 - Safe Git workflows for collaboration
 
----
+
+
 
 ## 🗂 Folder Structure
 
@@ -74,7 +77,6 @@ Includes Procfile and requirements.txt
 
 
 
-
 🚀 Getting Started (Local Setup)
 
 Prerequisites
@@ -86,19 +88,20 @@ Prerequisites
 2. Create & Activate Virtual Environment
 
 python -m venv venv
+
 venv\Scripts\activate
 
 3. Install Dependencies
 
 pip install -r requirements.txt
+
 pip install uvicorn
 
 4. Run Locally
 
 uvicorn main:app --reload
 
-Open in browser:
-http://127.0.0.1:8000/me
+Open in browser: http://127.0.0.1:8000/me
 
 
 
