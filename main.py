@@ -2,7 +2,7 @@
 from fastapi import FastAPI, Response, status
 from fastapi.responses import JSONResponse
 import httpx
-from datetime import datetime, timezone  # fixed typo: was 'datatime'
+from datetime import datetime, timezone  
 
 # create the fastapi application instance
 app = FastAPI()
@@ -32,7 +32,7 @@ async def get_profile():  # async func allows calling external api without block
         'user': {
             'email': 'basseyelisha99@gmail.com',
             'name': 'Elish Bassey',
-            'stack': 'Python / FastAPI'  # simplified to match required format
+            'stack': 'Python / FastAPI'  
         },
         'timestamp': datetime.now(timezone.utc).isoformat(),  # current UTC time in ISO 8601 format
         'fact': cat_fact  # dynamic cat fact from external API (or fallback)
