@@ -158,8 +158,7 @@ Handling dynamic environment variables for cloud deployment
 
 Cat Facts API: https://catfact.ninja/fact
 
-Railway Deployment: Your live URL after deployment
-
+Railway Deployment: stage0-backend-wizard-production-b606.up.railway.app
 GitHub Repo: https://github.com/Elice99/Stage0-Backend-wizard
 
 
