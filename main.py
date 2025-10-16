@@ -1,4 +1,6 @@
 # main.py
+import os
+import uvicorn
 from fastapi import FastAPI, Response, status
 from fastapi.responses import JSONResponse
 import httpx
@@ -6,6 +8,10 @@ from datetime import datetime, timezone
 
 # create the fastapi application instance
 app = FastAPI()
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
 
 # url of the external cat facts api that returns JSON-like response
 cat_api_url = 'https://catfact.ninja/fact'
