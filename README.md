@@ -166,7 +166,7 @@ GitHub Repo: https://github.com/Elice99/Stage0-Backend-wizard
 
 Author: Elisha Bassey
 Email: basseyelisha99@gmail.com
-Stack: Python / FastAPI
+Stack: Python / Django
 
 
 This README is **beginner-friendly, comprehensive, and deployment-ready**.  
